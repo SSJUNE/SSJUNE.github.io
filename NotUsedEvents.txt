@@ -1,0 +1,422 @@
+<!-- ======== events ======== -->
+			<div id="events" class="section">
+			
+				<div class="events-header">
+					<!-- == content header == -->
+					<header class="content-header">
+						<h2 class="content-title">Events</h2>
+						<span class="back-layer barlow" data-parallax='{"y": 20}'>Concerts</span>
+					</header>
+
+				</div>		
+				
+				<div id="events-scroll">
+
+					<!-- == events container == -->
+					<div class="container events-container">
+						
+						<!-- == future events list == -->
+						<h2 class="text-center">Future Events</h2>
+						<ul id="future-events" class="events-list">
+							<!-- event -->
+							<li>    
+								<!-- Left -->
+								<div class="left-event-block">
+		                            <div class="date-event">
+		                                <div class="day-event">09</div>
+		                                <div class="month-year-event">
+		                                    <div class="month-event">February</div>
+		                                    <div class="year-event">2018</div>
+		                                </div>
+		                            </div>
+		                            <div class="location-event">
+		                                <div class="event-name">Stay High</div>
+		                                <div class="city-name">Live Fest - London</div>
+		                            </div>
+		                        </div>
+		                        <!-- Right -->
+		                        <div class="right-event-block">
+									<a href="event-future01.html" class="line-link ajax-link" title="Details" data-nav-container="#future-events">Details</a>
+								</div>
+	                        </li>
+							<!-- /event -->
+							<!-- event -->
+							<li>    
+								<!-- Left -->
+								<div class="left-event-block">
+		                            <div class="date-event">
+		                                <div class="day-event">12</div>
+		                                <div class="month-year-event">
+		                                    <div class="month-event">March</div>
+		                                    <div class="year-event">2018</div>
+		                                </div>
+		                            </div>
+		                            <div class="location-event">
+		                                <div class="event-name">Voice From The Stone</div>
+		                                <div class="city-name">Famous - Poland</div>
+		                            </div>
+		                        </div>
+		                        <!-- Right -->
+		                        <div class="right-event-block">
+									<a class="line-link" title="Buy Tickets" target="_blank" href="#">Buy Tickets</a>
+								</div>
+	                        </li>
+							<!-- /event -->
+
+							<!-- event -->
+							<li>    
+								<!-- Left -->
+								<div class="left-event-block">
+		                            <div class="date-event">
+		                                <div class="day-event">24</div>
+		                                <div class="month-year-event">
+		                                    <div class="month-event">May</div>
+		                                    <div class="year-event">2018</div>
+		                                </div>
+		                            </div>
+		                            <div class="location-event">
+		                                <div class="event-name">Elevate</div>
+		                                <div class="city-name">Famous - New York</div>
+		                            </div>
+		                        </div>
+		                        <!-- Right -->
+		                        <div class="right-event-block">
+									<a href="event-future02.html" class="line-link ajax-link" title="Details" data-nav-container="#future-events">Details</a>
+								</div>
+	                        </li>
+							<!-- /event -->
+
+							<!-- event -->
+							<li>    
+								<!-- Left -->
+								<div class="left-event-block">
+		                            <div class="date-event">
+		                                <div class="day-event">18</div>
+		                                <div class="month-year-event">
+		                                    <div class="month-event">December</div>
+		                                    <div class="year-event">2018</div>
+		                                </div>
+		                            </div>
+		                            <div class="location-event">
+		                                <div class="event-name">Paris By Night</div>
+		                                <div class="city-name">Escape - Amsterdam</div>
+		                            </div>
+		                        </div>
+		                        <!-- Right -->
+		                        <div class="right-event-block">
+									<a class="line-link" title="Buy Tickets" target="_blank" href="#">Buy Tickets</a>
+								</div>
+	                        </li>
+							<!-- /event -->
+							<!-- event -->
+							<li>    
+								<!-- Left -->
+								<div class="left-event-block">
+		                            <div class="date-event">
+		                                <div class="day-event">30</div>
+		                                <div class="month-year-event">
+		                                    <div class="month-event">January</div>
+		                                    <div class="year-event">2019</div>
+		                                </div>
+		                            </div>
+		                            <div class="location-event">
+		                                <div class="event-name">WHOW! Marshall Night</div>
+		                                <div class="city-name">Pacha - Barcelona</div>
+		                            </div>
+		                        </div>
+		                        <!-- Right -->
+		                        <div class="right-event-block">
+									<a class="line-link" title="Details" href="#">Details</a>
+								</div>
+	                        </li>
+							<!-- /event -->
+							<!-- event -->
+							<li>    
+								<!-- Left -->
+								<div class="left-event-block">
+		                            <div class="date-event">
+		                                <div class="day-event">17</div>
+		                                <div class="month-year-event">
+		                                    <div class="month-event">March</div>
+		                                    <div class="year-event">2019</div>
+		                                </div>
+		                            </div>
+		                            <div class="location-event">
+		                                <div class="event-name">Want to be a VIP during my DJ Set?</div>
+		                                <div class="city-name">Golden Nugget - Atlantic City</div>
+		                            </div>
+		                        </div>
+		                        <!-- Right -->
+		                        <div class="right-event-block">
+									<a class="line-link" title="Buy Tickets" target="_blank" href="#">Buy Tickets</a>
+								</div>
+	                        </li>
+							<!-- /event -->
+
+							<!-- event -->
+							<li>    
+								<!-- Left -->
+								<div class="left-event-block">
+		                            <div class="date-event">
+		                                <div class="day-event">09</div>
+		                                <div class="month-year-event">
+		                                    <div class="month-event">February</div>
+		                                    <div class="year-event">2019</div>
+		                                </div>
+		                            </div>
+		                            <div class="location-event">
+		                                <div class="event-name">Stay High</div>
+		                                <div class="city-name">Live Fest - London</div>
+		                            </div>
+		                        </div>
+		                        <!-- Right -->
+		                        <div class="right-event-block">
+									<a class="line-link" title="Buy Tickets" target="_blank" href="#">Buy Tickets</a>
+								</div>
+	                        </li>
+							<!-- /event -->
+							<!-- event -->
+							<li>    
+								<!-- Left -->
+								<div class="left-event-block">
+		                            <div class="date-event">
+		                                <div class="day-event">12</div>
+		                                <div class="month-year-event">
+		                                    <div class="month-event">March</div>
+		                                    <div class="year-event">2019</div>
+		                                </div>
+		                            </div>
+		                            <div class="location-event">
+		                                <div class="event-name">Voice From The Stone</div>
+		                                <div class="city-name">Famous - Poland</div>
+		                            </div>
+		                        </div>
+		                        <!-- Right -->
+		                        <div class="right-event-block">
+									<a class="line-link" title="Buy Tickets" target="_blank" href="#">Buy Tickets</a>
+								</div>
+	                        </li>
+							<!-- /event -->
+
+							<!-- event -->
+							<li>    
+								<!-- Left -->
+								<div class="left-event-block">
+		                            <div class="date-event">
+		                                <div class="day-event">24</div>
+		                                <div class="month-year-event">
+		                                    <div class="month-event">May</div>
+		                                    <div class="year-event">2019</div>
+		                                </div>
+		                            </div>
+		                            <div class="location-event">
+		                                <div class="event-name">Elevate</div>
+		                                <div class="city-name">Famous - New York</div>
+		                            </div>
+		                        </div>
+	                        </li>
+							<!-- /event -->
+
+							<!-- event -->
+							<li>    
+								<!-- Left -->
+								<div class="left-event-block">
+		                            <div class="date-event">
+		                                <div class="day-event">18</div>
+		                                <div class="month-year-event">
+		                                    <div class="month-event">December</div>
+		                                    <div class="year-event">2019</div>
+		                                </div>
+		                            </div>
+		                            <div class="location-event">
+		                                <div class="event-name">Paris By Night</div>
+		                                <div class="city-name">Escape - Amsterdam</div>
+		                            </div>
+		                        </div>
+		                        <!-- Right -->
+		                        <div class="right-event-block">
+									<a class="line-link" title="Buy Tickets" target="_blank" href="#">Buy Tickets</a>
+								</div>
+	                        </li>
+							<!-- /event -->
+							<!-- event -->
+							<li>    
+								<!-- Left -->
+								<div class="left-event-block">
+		                            <div class="date-event">
+		                                <div class="day-event">30</div>
+		                                <div class="month-year-event">
+		                                    <div class="month-event">January</div>
+		                                    <div class="year-event">2020</div>
+		                                </div>
+		                            </div>
+		                            <div class="location-event">
+		                                <div class="event-name">WHOW! Marshall Night</div>
+		                                <div class="city-name">Pacha - Barcelona</div>
+		                            </div>
+		                        </div>
+		                        <!-- Right -->
+		                        <div class="right-event-block">
+									<a class="line-link" title="Buy Tickets" target="_blank" href="#">Buy Tickets</a>
+								</div>
+	                        </li>
+							<!-- /event -->
+							<!-- event -->
+							<li>    
+								<!-- Left -->
+								<div class="left-event-block">
+		                            <div class="date-event">
+		                                <div class="day-event">17</div>
+		                                <div class="month-year-event">
+		                                    <div class="month-event">March</div>
+		                                    <div class="year-event">2020</div>
+		                                </div>
+		                            </div>
+		                            <div class="location-event">
+		                                <div class="event-name">Want to be a VIP during my DJ Set?</div>
+		                                <div class="city-name">Golden Nugget - Atlantic City</div>
+		                            </div>
+		                        </div>
+		                        <!-- Right -->
+		                        <div class="right-event-block">
+									<a class="line-link" title="Buy Tickets" target="_blank" href="#">Buy Tickets</a>
+								</div>
+	                        </li>
+							<!-- /event -->
+						</ul>
+						<!-- /events list -->
+						<br>
+
+
+						<!-- == past events list == -->
+						<h2 class="text-center">Past Events</h2>
+						<ul id="past-events" class="events-list">
+							<!-- event -->
+							<li>    
+								<!-- Left -->
+								<div class="left-event-block">
+		                            <div class="date-event">
+		                                <div class="day-event">20</div>
+		                                <div class="month-year-event">
+		                                    <div class="month-event">December</div>
+		                                    <div class="year-event">2017</div>
+		                                </div>
+		                            </div>
+		                            <div class="location-event">
+		                                <div class="event-name">Stay High</div>
+		                                <div class="city-name">Live Fest - London</div>
+		                            </div>
+		                        </div>
+		                        <!-- Right -->
+		                        <div class="right-event-block">
+									<a class="line-link" title="Details" href="#">Details</a>
+								</div>
+	                        </li>
+							<!-- /event -->
+
+							<!-- event -->
+							<li>    
+								<!-- Left -->
+								<div class="left-event-block">
+		                            <div class="date-event">
+		                                <div class="day-event">05</div>
+		                                <div class="month-year-event">
+		                                    <div class="month-event">December</div>
+		                                    <div class="year-event">2017</div>
+		                                </div>
+		                            </div>
+		                            <div class="location-event">
+		                                <div class="event-name">WHOW! Marshall Night</div>
+		                                <div class="city-name">Pacha - Barcelona</div>
+		                            </div>
+		                        </div>
+		                       <!-- Right -->
+		                        <div class="right-event-block">
+									<a class="line-link" title="Details" href="#">Details</a>
+								</div>
+	                        </li>
+							<!-- /event -->
+							<!-- event -->
+							<li>    
+								<!-- Left -->
+								<div class="left-event-block">
+		                            <div class="date-event">
+		                                <div class="day-event">18</div>
+		                                <div class="month-year-event">
+		                                    <div class="month-event">Novenber</div>
+		                                    <div class="year-event">2017</div>
+		                                </div>
+		                            </div>
+		                            <div class="location-event">
+		                                <div class="event-name">Want to be a VIP during my DJ Set?</div>
+		                                <div class="city-name">Golden Nugget - Atlantic City</div>
+		                            </div>
+		                        </div>
+	                        </li>
+							<!-- /event -->
+
+							<!-- event -->
+							<li>    
+								<!-- Left -->
+								<div class="left-event-block">
+		                            <div class="date-event">
+		                                <div class="day-event">30</div>
+		                                <div class="month-year-event">
+		                                    <div class="month-event">October</div>
+		                                    <div class="year-event">2017</div>
+		                                </div>
+		                            </div>
+		                            <div class="location-event">
+		                                <div class="event-name">Stay High</div>
+		                                <div class="city-name">Live Fest - London</div>
+		                            </div>
+		                        </div>
+	                        </li>
+							<!-- /event -->
+							<!-- event -->
+							<li>    
+								<!-- Left -->
+								<div class="left-event-block">
+		                            <div class="date-event">
+		                                <div class="day-event">12</div>
+		                                <div class="month-year-event">
+		                                    <div class="month-event">July</div>
+		                                    <div class="year-event">2017</div>
+		                                </div>
+		                            </div>
+		                            <div class="location-event">
+		                                <div class="event-name">Voice From The Stone</div>
+		                                <div class="city-name">Famous - Poland</div>
+		                            </div>
+		                        </div>
+	                        </li>
+							<!-- /event -->
+
+							<!-- event -->
+							<li>    
+								<!-- Left -->
+								<div class="left-event-block">
+		                            <div class="date-event">
+		                                <div class="day-event">24</div>
+		                                <div class="month-year-event">
+		                                    <div class="month-event">May</div>
+		                                    <div class="year-event">2017</div>
+		                                </div>
+		                            </div>
+		                            <div class="location-event">
+		                                <div class="event-name">Elevate</div>
+		                                <div class="city-name">Famous - New York</div>
+		                            </div>
+		                        </div>
+	                        </li>
+							<!-- /event -->
+
+						</ul>
+					</div>
+					<!-- /events container -->
+
+				</div>
+				<!-- /events scroll -->
+
+			</div>
+			<!-- /events -->

@@ -1,107 +1,740 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US" dir="ltr">
+    
+<!-- Mirrored from meloo-html.rascalsthemes.com/dark/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 May 2019 18:37:17 GMT -->
 <head>
-	<title>SSJune</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
-</head>
-<body>
+		<title>--SSJune--</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="description" content="Premium theme.">
+		<meta name="keywords" content=""/>
+		<meta name="author" content="Site Author">
+		<meta name="robots" content="index,follow">
+	   
+	 	<!-- ======== Google Fonts ======== -->
+	 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i&amp;subset=latin-ext" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,300i,400,400i,500,500i,700,700i,800,800i,900,900i%7CPT+Sans:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		<!-- ======== Stylesheets ======== -->
+		<!-- Player -->
+		<link rel="stylesheet" href="js/audio-player/css/scamp.player.css" media="screen" />
+		<link rel="stylesheet" href="js/audio-player/css/scamp.player.dark.css" media="screen" />
+		<!-- icons -->
+		<link rel="stylesheet" href="ico/icomoon.css" media="screen" />
+		<link rel="stylesheet" href="ico/Pe-icon-7-stroke.css" media="screen" />
+		<!-- Lightbox -->
+		<link rel="stylesheet" href="css/magnific-popup.css" media="screen" />
+		<!-- Main stylesheets -->
+        <link rel="stylesheet" href="css/style.css" media="screen" />
+
+		<!-- ======== Javascripts ======== -->
+		<!-- jQuery -->
+		<script src="js/jquery.min.js"></script>
+	</head>
+	<body class="home">
 	
-	<!--  -->
-	<div class="simpleslide100">
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg01.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg02.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg03.jpg');"></div>
+		<!-- ======== Loader ======== -->
+		<div id="loading-layer" class="loading-layer show-layer">
+			<div class="ajax-loader">
+				<div class="show-fx trans-10 delay-02">
+					<div class="loader-img skew-fx-loop"><img src="images/logo.png" alt="Logo"></div>
+				</div>
+				<div class="show-fx trans-10 delay-03">
+					<div class="loader-bar">
+						<span class="progress-bar"></span>
+					</div>
+				</div>
+			</div>
+		</div>
 
-	</div>
+		<!-- ======== Resopnsive Navigation ======== -->
+        <div class="responsive-block">
+            <div class="responsive-block-content">
+                <a href="#" class="responsive-block-close"></a>
+                <nav id="responsive-nav"> <!-- Responsive nav here --> </nav>
+                <div id="responsive-social"> <!-- Responsive Social Icons from header -->  </div>
+            </div>
+        </div>  
+        <div class="responsive-block-layer"></div>
 
-	<div class="flex-col-c-sb size1 overlay1">
-		<!--  -->
-		<div class="w-full flex-w flex-sb-m p-l-80 p-r-80 p-t-22 p-lr-15-sm">
-			<div class="wrappic1 m-r-30 m-t-10 m-b-10">
-				<a href="#"><img src="images/icons/logo.png" alt="LOGO"></a>
+		<!-- ======== Header ======== -->
+		<div id="header" class="hide-navigation">
+			
+			<!-- ======== Search ======== --> 
+			<div id="search-block">
+				<input type="text" placeholder="Search and hit enter..." name="s" id="search" />
+			</div>
+			<!-- /search -->
+
+			<!-- ======== Social ======== --> 
+			<div id="social-block">
+				<h6 class="social-title trans-10 show-fx">Follow Me</h6>
+
+				<div class="social-icons trans-10 show-fx delay-01">
+
+					<!-- Facebook -->
+					<a href="#" class="circle-btn">
+						<svg class="circle-svg" width="50" height="50" viewBox="0 0 50 50">
+							<circle class="circle" cx="25" cy="25" r="23" stroke="#fff" stroke-width="1" fill="none"></circle>
+						</svg>
+						<span class="icon icon-facebook"></span>
+					</a>
+
+					<!-- Twitter -->
+					<a href="#" class="circle-btn">
+						<svg class="circle-svg" width="50" height="50" viewBox="0 0 50 50">
+							<circle class="circle" cx="25" cy="25" r="23" stroke="#fff" stroke-width="1" fill="none"></circle>
+						</svg>
+						<span class="icon icon-twitter"></span>
+					</a>
+
+					<!-- Beatport -->
+					<a href="#" class="circle-btn">
+						<svg class="circle-svg" width="50" height="50" viewBox="0 0 50 50">
+							<circle class="circle" cx="25" cy="25" r="23" stroke="#fff" stroke-width="1" fill="none"></circle>
+						</svg>
+						<span class="icon icon-Beatport"></span>
+					</a>
+
+					<!-- Bandcamp -->
+					<a href="#" class="circle-btn">
+						<svg class="circle-svg" width="50" height="50" viewBox="0 0 50 50">
+							<circle class="circle" cx="25" cy="25" r="23" stroke="#fff" stroke-width="1" fill="none"></circle>
+						</svg>
+						<span class="icon icon-bandcamp"></span>
+					</a>
+
+				</div>
+				
+			</div>
+			<!-- /share icons -->
+
+			 <!-- ======== Main Navigation ======== --> 
+			<div id="main-nav">
+
+				<!-- Navigation container -->
+			   	<div class="nav-container">
+
+				   	 <!-- ======== Logo ======== --> 
+				   	<a href="#intro" id="logo" class="smooth-scroll skew-fx">
+				   		<img src="images/logo.png" alt="Logo">
+				   	</a>
+				   	<!-- /logo -->
+
+				   	 <!-- ======== Icon navigation ======== --> 
+					<nav id="icon-nav">
+						<ul>
+							<li class="responsive-trigger-wrap"><a href="#" class="circle-btn responsive-trigger">
+                                <svg class="circle-svg" width="40" height="40" viewBox="0 0 50 50">
+                                    <circle class="circle" cx="25" cy="25" r="23" stroke="#fff" stroke-width="1" fill="none"></circle>
+                                </svg>
+                                <span class="icon"></span>
+                                </a>
+                            </li>
+                            <li class="player-trigger-wrap"><a href="#show-player" class="nav-player-btn circle-btn">
+                                <svg class="circle-svg" width="40" height="40" viewBox="0 0 50 50">
+                                    <circle class="circle" cx="25" cy="25" r="23" stroke="#fff" stroke-width="1" fill="none"></circle>
+                                    <circle class="circle-bg" cx="25" cy="25" r="23" stroke="#fff" stroke-width="1" fill="none"></circle>
+                                </svg>
+                                <span class="pe-7s-musiclist"></span>
+                                </a>
+                            </li>
+                            <li class="search-trigger-wrap"><a href="#" id="nav-search" class="circle-btn">
+                                <svg class="circle-svg" width="40" height="40" viewBox="0 0 50 50">
+                                    <circle class="circle" cx="25" cy="25" r="23" stroke="#fff" stroke-width="1" fill="none"></circle>
+                                </svg>
+                                <span class="pe-7s-search"></span>
+                                </a>
+                            </li>
+                            <li class="social-trigger-wrap"><a href="#" id="nav-social" class="circle-btn">
+                                <svg class="circle-svg" width="40" height="40" viewBox="0 0 50 50">
+                                    <circle class="circle" cx="25" cy="25" r="23" stroke="#fff" stroke-width="1" fill="none"></circle>
+                                </svg>
+                                <span class="pe-7s-share"></span>
+                                </a>
+                            </li>
+                        </ul>
+					</nav>
+					<!-- /icon navigation -->
+<!-- ======== Navigation ======== --> 
+                    <nav id="nav">
+                        <ul>
+                            <!--<li class="text-fx-btn rotate-x-360"> 
+                                <a href="#" class="trans-10 text-fx-btn-x">Features</a>
+                                <ul>
+                                    <li>
+                                        <a href="grid.html" class="ajax-link">Grid</a>
+                                    </li>
+                                    <li>
+                                        <a href="media.html" class="ajax-link">Media</a>
+                                    </li>
+                                    <li>
+                                        <a href="elements.html" class="ajax-link">Elements</a>
+                                    </li>
+                                     <li>
+                                        <a href="404.html" class="ajax-link">404 Error</a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#newsletter">Newsletter</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sub Menu</a>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Level 2.1</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Level 2.2</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Level 2.3</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>     -->      
+                            </li>
+                            <li class="text-fx-btn rotate-x-360">
+                                <a href="index.html#music" class="trans-10 text-fx-btn-x">Music</a>
+                            </li>
+
+                            <li class="text-fx-btn rotate-x-360">
+                                <a href="index.html#bio" class="trans-10 text-fx-btn-x">Bio</a>
+                            </li>
+                            <li class="text-fx-btn rotate-x-360">
+                                <a href="index.html#contact" class="trans-10 text-fx-btn-x">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- /navigation -->
+
+			   	</div>
+			   	<!-- /navigation container -->
+			</div>
+			<!-- /main navigation -->
+		</div>
+		<!-- /header -->
+	
+		<!-- ======== Site ======== -->
+		<div class="site">
+			
+			<!-- ======== intro ======== -->
+			<div id="intro" class="intro intro-01 intro-fullscreen clearfix" >
+				
+				<!-- Image -->
+				<div class="intro-image parallax blur-fx trans-20"><img class="hidden" src="images/intro-image-02.jpg" alt="Intro-image"></div>
+
+				<!-- Text slider -->
+				<div class="text-slider" data-delay="5">
+					<div class="text-slide visible">
+						<h2 class="text-fx">SSJune</h2>
+						<h6 class="text-fx-word">No Fun Entertainment</h6>
+					</div>
+					<div class="text-slide">
+						<h2 class="text-fx">Grimy Productions</h2>
+						<h6 class="text-fx-word">Arizona to Philadelphia</h6>
+					</div>
+				</div>
+				<!-- /text slider -->
+				<span class="scroll-discover"><span class="icon icon-line-arrow-left"></span> Scroll to discover</span>
+			</div>
+			<!-- /intro -->
+
+			<!-- ======== Recent Releases ======== -->
+			<div id="recent-releases" class="recent-releases clearfix">
+				
+				<div class="container section-content">
+					
+					<!-- == content header == -->
+					<header class="content-header">
+						<h2 class="content-title">Hot!</h2>
+						<span class="back-layer barlow" data-parallax='{"y": -40}'>Releases</span>
+					</header>
+					
+					<!-- Layer Slider -->
+					<div class="slider-block layers-slider-block">
+						<ul class="layers-slider trans-20">
+
+							<!-- Slide 01 -->
+							<li class="on">
+								<div class="back-layer" data-parallax='{"y": -20}'>
+									<img src="images/release03-big.jpg" alt="slide image" class="trans-25" />
+									<div class="desc-layer" data-parallax='{"y": -10}'>
+										<h3 class="title text-fx delay-08 on">PILOT EP.</h3>
+										<h6 class="sub-title text-fx-word delay-10 on">DESCRIPTION OF PILOT EP</h6>
+									</div>
+								</div>
+								<div class="front-layer" data-parallax='{"y": -40}'>
+									<img src="images/release03.jpg" alt="slide image" class="trans-25 delay-02" />								
+								</div>
+							</li>
+
+							<!-- Slide 02 -->
+							<li>
+								<div class="back-layer" data-parallax='{"y": -20}'>
+									<img src="images/release01-big.jpg" alt="slide image" class="trans-25" />
+									<div class="desc-layer" data-parallax='{"y": -10}'>
+										<h3 class="title text-fx delay-08">Had To.</h3>
+										<h6 class="sub-title text-fx-word delay-10">I Just Had To.</h6>
+									</div>
+								</div>
+								<div class="front-layer" data-parallax='{"y": -40}'>									
+										<img src="images/release01.jpg" alt="slide image" class="trans-25 delay-02" />										
+								</div>
+							</li>
+							
+							<!-- Slide 03 -->
+							<li>
+								<div class="back-layer" data-parallax='{"y": -20}'>
+									<img src="images/release08-big.jpg" alt="slide image" class="trans-25" />
+									<div class="desc-layer" data-parallax='{"y": -10}'>
+										<h3 class="title text-fx delay-08">Moonlight</h3>
+										<h6 class="sub-title text-fx-word delay-10">Moonlight Description</h6>
+									</div>
+								</div>
+								<div class="front-layer" data-parallax='{"y": -40}'>									
+										<img src="images/release08.jpg" alt="slide image" class="trans-25 delay-02" />										
+								</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- /masonry news -->
+
+			<!-- ======== UPCOMING EVENT ======== -->
+			<div id="upcoming-event" class="event-countdown parallax">
+				<div class="overlay"></div> <!-- overlay layer -->
+				<!-- container -->
+				<div class="container full-width">
+					<!-- == content header == -->
+					<header class="content-header" data-parallax='{"y": -10}'>
+						<h6 class="upcoming-event">COUNTDOWN TILL</h6>
+						<h2 class="content-title">NEW HEAT</h2>
+						<span class="sub-heading">Philadelphia, USA</span>
+					</header>
+					<!-- /content header -->
+					<!-- countdown -->
+					<div class="countdown" data-event-date="2019/10/18 20:20:00" data-parallax='{"y": -40}'>
+						<div class="unit-block"><span>DAYS</span><div class="days unit clip-text" >000</div></div>
+						<div class="unit-block"><span>HOURS</span><div class="hours unit clip-text"  >000</div></div>
+						<div class="unit-block"><span>MINUTES</span><div class="minutes unit clip-text" >000</div></div>
+						<div class="unit-block"><span>SECONDS</span><div class="seconds unit clip-text" >000</div></div>
+					</div>
+					<!-- /countdown -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /upcoming event -->
+
+			<!-- ======== Music ======== -->
+			<div id="music" class="section">
+
+				<div class="container music-header section-content full-width">
+					<!-- == content header == -->
+					<header class="content-header">
+						<h2 class="content-title">Music</h2>
+						<span class="back-layer barlow" data-parallax='{"y": 20}'>Releases</span>
+					</header>
+
+				</div>
+
+				<!-- == music filter == -->
+				<div id="music-main-filter" class="filter">
+					<ul class="filter-list item-filter active-filter clearfix">
+						<li><a data-categories="*" class="reveal-fx-static">All</a></li>
+					<!--	<li><a data-categories="new" class="reveal-fx-static">New Tracks</a></li>
+						<li><a data-categories="drum-and-bass" class="reveal-fx-static">Drum and Bass</a></li>
+						<li><a data-categories="glitch" class="reveal-fx-static">Glitch Hop</a></li>
+						<li><a data-categories="breakbeat" class="reveal-fx-static">Breakbeat</a></li>
+						<li><a data-categories="uk-funky" class="reveal-fx-static">UK Funky</a></li>
+						<li><a data-categories="dubstep" class="reveal-fx-static">Dubstep</a></li>-->
+					</ul>
+				</div>
+				<!-- /music filter -->
+
+				<!-- == music grid == -->
+				<div id="music-items" class="full-width items clearfix">
+				
+									<!-- item -->
+					<div class="item" data-categories="new drum-and-bass">
+						<a href="project03.html" class="thumb project-thumb thumb-fade ajax-link" data-nav-container="#music-items">
+							<!-- Image -->
+							<img src="images/release03.jpg" alt="Release image" >
+							<!-- Title -->
+							<div class="desc-layer">
+								<h2 class="text-fx-word">PILOT EP.</h2>
+								<h3 class="text-fx-word">SSJUNE</h3>
+							</div>
+							<!-- Icon -->
+							<span class="thumb-icon trans-40">
+								<svg class="circle-svg" width="80" height="80" viewBox="0 0 50 50">
+									<circle class="circle" cx="25" cy="25" r="23" stroke="#fff" stroke-width="1" fill="none"></circle>
+									</svg>
+									<span class="pe-7s-expand1"></span>
+							</span>
+						</a>
+						
+					</div>
+					<!-- /item -->			
+					
+					<!-- item -->
+					<div class="item" data-categories="new glitch">
+						<a href="project01.html" class="thumb project-thumb thumb-fade ajax-link" data-nav-container="#music-items">
+							<!-- Image -->
+							<img src="images/release01.jpg" alt="Release image" >
+							<!-- Badge -->
+							
+							<!-- Title -->
+							<div class="desc-layer">
+								<h2 class="text-fx-word">Had To.</h2>
+								<h3 class="text-fx-word">SSJUNE</h3>
+							</div>
+							<!-- Icon -->
+							<span class="thumb-icon trans-40">
+								<svg class="circle-svg" width="80" height="80" viewBox="0 0 50 50">
+									<circle class="circle" cx="25" cy="25" r="23" stroke="#fff" stroke-width="1" fill="none"></circle>
+									</svg>
+									<span class="pe-7s-expand1"></span>
+							</span>
+						</a>
+						
+					</div>
+					<!-- /item -->				
+
+
+
+					<!-- item -->
+					<div class="item" data-categories="drum-and-bass breakbeat">
+						<a href="project08.html" class="thumb project-thumb thumb-fade ajax-link" data-nav-container="#music-items">
+							<!-- Image -->
+							<img src="images/release08.jpg" alt="Release image" >
+							<!-- Title -->
+							<div class="desc-layer">
+								<h2 class="text-fx-word">Moonlight</h2>
+								<h3 class="text-fx-word">SSJUNE</h3>
+							</div>
+							<!-- Icon -->
+							<span class="thumb-icon trans-40">
+								<svg class="circle-svg" width="80" height="80" viewBox="0 0 50 50">
+									<circle class="circle" cx="25" cy="25" r="23" stroke="#fff" stroke-width="1" fill="none"></circle>
+									</svg>
+									<span class="pe-7s-expand1"></span>
+							</span>
+						</a>
+						
+					</div>
+					<!-- /item -->					
+				</div>
+				<!-- /music grid -->
+
+			</div>
+			<!-- /music -->
+
+			
+
+
+			<!-- ======== bio ======== -->
+			<div id="bio" class="section">
+
+				<!-- container -->
+				<div class="container small section-content bio-text-block">
+					<!-- == content header == -->
+					<header class="content-header">
+						<h2 class="content-title">Biography</h2>
+						<span class="back-layer barlow" data-parallax='{"y": -40}'>Biography</span>
+					</header>
+					
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor fermentum ullamcorper. Aliquam erat volutpat. Nullam purus metus, interdum ac lacinia non, sodales non arcu. In eleifend vestibulum eleifend. Maecenas ut felis mi, vitae pharetra justo. Ut lacus lacus, fermentum sed tincidunt eget, suscipit nec orci. Sed pellentesque dapibus tellus in semper. Aenean faucibus aliquet turpis, id fermentum sem consectetur id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis faucibus euismod nunc scelerisque tincidunt.</p>
+
+					<blockquote>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor fermentum ullamcorper. Aliquam erat volutpat. Nullam purus metus, interdum ac lacinia non.
+					</blockquote>
+
+					<p>Phasellus ligula sem, laoreet luctus luctus sed, pharetra in mi. Aenean accumsan gravida convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus congue tellus lectus, quis sodales sem. Ut nec nisl id sem ultricies malesuada. Nunc eu justo mauris, non lobortis dolor. Nunc id condimentum leo. Vestibulum tortor eros, mollis ac tempor et, commodo eu tellus. Curabitur a leo non nunc tristique tincidunt. Donec enim eros, blandit pharetra dapibus ullamcorper, aliquet sit amet diam. Aenean tempus laoreet adipiscing. Vivamus eleifend pretium pellentesque.</p>
+					
+					
+				</div>
+				<!-- /container -->
+
+				<!-- Bio BG -->
+				<div class="container full-width bio-bg-block">
+					<a href="#" class="click-layer thumb">
+						<span class="thumb-icon trans-40 on">
+							<svg class="circle-svg" width="80" height="80" viewBox="0 0 50 50">
+								<circle class="circle" cx="25" cy="25" r="23" stroke="#fff" stroke-width="1" fill="none"></circle>
+								</svg>
+								<span class="pe-7s-play"></span>
+						</span>
+					</a>
+					<img data-parallax='{"y": -50}' src="images/bio-image.png" alt="Bio image">
+				</div>
+
+				<!-- Stats container -->
+				<div class="container full-width section-content stats-bg-block">
+					
+					<!-- Grid 2 Cols -->
+					<div class="grid-row grid-row-pad">
+
+						<!-- Col 1/2 -->
+						<div class="grid-6 grid-tablet-12 grid-mobile-12">
+							<h3 class="heading-1 text-center">Testimonials</h3>
+							
+							<div class="slider-block testi-slider-block slider-nav-simple">
+								<ul class="testi-slider trans-20">
+
+									<!-- Slide 01 -->
+									<li class="on">
+										<div class="back-layer" data-parallax='{"y": -30}'>
+											<img src="images/testimonial-image-01.jpg" alt="slide image" class="trans-25" />
+										</div>
+										<div class="front-layer" data-parallax='{"y": -20}'>
+											<div class="text">
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu felis tellus, sit amet elementum est. Proin posuere turpis lectus, eget vulputate erat. Nunc eget metus in magna vulputate elementum sed ut leo. Mauris at mauris purus, ut laoreet eros.<span class="name">DJ Johny Drama</span></p>
+											</div>
+										</div>
+									</li>
+									
+									<!-- Slide 02 -->
+									<li>
+										<div class="back-layer" data-parallax='{"y": -30}'>
+											<img src="images/testimonial-image-02.jpg" alt="slide image" class="trans-25" />
+										</div>
+										<div class="front-layer" data-parallax='{"y": -20}'>
+											<div class="text trans-25">
+												<p>Phasellus ligula sem, laoreet luctus luctus sed, pharetra in mi. Aenean accumsan gravida convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus congue tellus lectus, quis sodales sem.<span class="name">Fancy Crew</span></p>
+												
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+
+
+						</div>
+						
+						<!-- Col 2/2 -->
+						<div class="grid-6 grid-tablet-12 grid-mobile-12">
+							
+							<h3 class="heading-1 text-center">My world in numbers</h3>
+							<ul class="stats" data-timer="10000" data-parallax='{"y": 30}'>
+								<li>
+									<span class="stat-value">1876</span> 
+									<span class="stat-name">gigs</span>
+								</li>
+								<li>
+									<span class="stat-value">1200</span> 
+									<span class="stat-name">happy peoples</span>
+								</li>
+								<li>
+									<span class="stat-value">1266</span> 
+									<span class="stat-name">releases</span>
+								</li>
+								<li>
+									<span class="stat-value">2356</span>
+									<span class="stat-name">coffees per year</span>
+								</li>
+								<li>
+									<span class="stat-value">1076</span>
+									<span class="stat-name">red buls per year</span>
+								</li>
+								<li>
+									<span class="stat-value">2009</span>
+									<span class="stat-name">year of creation</span>
+								</li>
+								<li>
+									<span class="stat-value">1887</span>
+									<span class="stat-name">Glitch tracks</span>
+								</li>
+								<li>
+									<span class="stat-value">3238</span>
+									<span class="stat-name">vinyls</span>
+								</li>
+								<li>
+									<span class="stat-value">2432</span>
+									<span class="stat-name">dubstep tracks</span>
+								</li>
+								<li>
+									<span class="stat-value">1432</span>
+									<span class="stat-name">UK funky tracks</span>
+								</li>
+								<li>
+									<span class="stat-value">1234</span>
+									<span class="stat-name">Dub tracks</span>
+								</li>
+								<li>
+									<span class="stat-value">1238</span>
+									<span class="stat-name">countries</span>
+								</li>
+							</ul>
+							<!-- /stats list -->
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<!-- /bio -->
+
+
+			<!-- ======== contact ======== -->
+			<div id="contact" class="section">
+				
+				 <!-- == GMap == -->
+				<div id="contact-map" class="gmap clearfix" data-address="Level 13, 2 Elizabeth St, Melbourne Victoria 3000 Australia" data-zoom="10" data-zoom_control="true" data-scrollwheel="false"></div>
+				<!-- /gmap -->
+
+
+				<!-- == section container == -->
+				<div class="container section-content clearfix">
+
+						<!-- == content header == -->
+						<header class="content-header">
+							<h1 class="content-title">Contact</h1>
+							<span class="back-layer barlow" data-parallax='{"y": -40}'>Contact</span>
+						</header>
+						<!-- /content header -->
+						
+						<!-- Grid 2 columns -->
+						<div class="grid-row grid-row-pad-large">
+							
+							<!-- Col 1 -->
+							<div class="grid-6 grid-mobile-12 grid-tablet-12 col-cf">
+
+								<h3 class="heading-2">Contact Form</h3>
+
+								<form action="http://meloo-html.rascalsthemes.com/dark/plugins/contact-form.php" method="post" class="contact-form">
+									<input type="text" name="name" value="" id="contact-name" class="half" placeholder="Full Name" required >
+									<input type="email" name="email" value="" id="contact-email" class="half last" placeholder="Email Address" required>
+									<input type="text" name="subject" value="" id="contact-subject" placeholder="Message Subject">
+									<textarea name="message" id="contact-message" cols="88" rows="6" placeholder="Message" required></textarea>
+									<div class="hidden">
+										<label for="contact-spam-check">Do not fill out this field:</label>
+										<input name="spam-check" type="text" value="" id="contact-spam-check" />
+									</div>
+
+									<input type="submit" class="button" value="Send Email">
+								</form>
+							</div>
+							
+							<!-- Col 2 -->
+							<div class="grid-6 grid-mobile-12 grid-tablet-12 col-contact-details">
+								<p>
+									<span class="contact-info">Manager</span>
+									<a href="tel:+48221321321" class="barlow contact-link">+48 221-321-321</a>
+									<a href="mailto:yourmailhere" class="barlow contact-link contact-email">manager@meloo.com</a>
+								</p>
+								<p>
+									<span class="contact-info">Booking</span>
+									<a href="tel:+48221321321" class="barlow contact-link">+48 411-721-791</a>
+									<a href="mailto:yourmailhere" class="barlow contact-link contact-email">booking@meloo.com</a>
+								</p>
+								<p>
+									<span class="contact-info">Preorder</span>
+									<a href="tel:+48221321321" class="barlow contact-link">+48 875-121-131</a>
+									<a href="mailto:yourmailhere" class="barlow contact-link contact-email">preorder@meloo.com</a>
+								</p>
+							</div>
+
+						</div>
+
+			    </div>
+			    <!-- /section container -->
+
+			</div>
+			<!-- /contact -->
+
+
+			<!-- ======== Newsletter ======== -->
+			<div id="newsletter">
+				<div class="overlay dots"></div> <!-- overlay layer -->
+				<!-- == section container == -->
+				<div class="container section-content clearfix">
+
+					<!-- == content header == -->
+					<header class="content-header">
+						<h1 class="content-title">Newsletter</h1>
+						<span class="back-layer barlow" data-parallax='{"y": -40}'>Subscribe</span>
+					</header>
+					<!-- /content header -->
+					<!-- subscribe form -->
+					<form action="#post" method="post" id="subscribe-form">
+						<input type="email" name="subscribe_email" value="" id="subscribe-email" placeholder="Enter your email..." required>
+						<input type="submit" value="+" class="large" id="subscribe-submit">
+					</form>
+					<!-- /subscribe form -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /newsletter -->
+
+			<!-- ======== Instagram feed ======== -->
+			<div id="instagram" class="instagram" >
+				<div class="instagram-feed">
+				<!-- Instagram content here -->
+				</div>
+				<div class="follow-overlay"><a class="barlow" href="#">@melooproducer</a></div>
 			</div>
 
-
+			<!-- ======== footer ======== -->
+			<footer id="footer">
+				<!-- container -->
+				<div class="container">
+					<div id="copyrights">
+                        &copy; Copyright 2019 GraphicMelon
+						</div>
+				</div>
+				<!-- /container -->
+			</footer>
+			<!-- /footer -->
 		</div>
+		<!-- /site -->
 
-		<!--  -->
-		<div class="flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-120">
-			<h3 class="l1-txt1 txt-center p-b-40 respon1">
-				Coming  Soon
-			</h3>
+		<!-- ======== Audio Player ======== -->
+		<div id="scamp_player" class=" sp-anim">
+			<!-- Player Autostart Track -->
+            <a href="https://soundcloud.com/wolfbeatsofficial/avionics-flipside" 
+                data-cover="images/release09.jpg"
+                data-artist="Wolf Beats" 
+                data-artist_url="https://soundcloud.com/wolfbeatsofficial/avionics-flipside" 
+                data-artist_target="_blank" 
+                data-release_url="" 
+                data-release_target="_self" 
+                data-shop_url="" 
+                data-shop_target="_self" 
+                data-free_download="yes">
+                Avionics - Flipside
+            </a>
 		</div>
-
-		<!--  -->
-		<div class="flex-w flex-c-m p-b-35">
-			<a href="#" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
-				<i class="fa fa-facebook"></i>
-			</a>
-
-			<a href="#" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
-				<i class="fa fa-twitter"></i>
-			</a>
-
-			<a href="#" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
-				<i class="fa fa-youtube-play"></i>
-			</a>
-		</div>
-	</div>
+		<!-- /Audio Player -->
 
 
+		<!-- ======== Javascripts ======== -->
+		<script src="js/jquery.easing-1.3.min.js"></script>
+		<script src="js/jquery.isotope.min.js"></script>
+		<script src="js/imagesloaded.min.js"></script>
+		<script src="js/jquery.bxslider.js"></script>
+		<script src="js/nprogress.js"></script>
+		<script src="js/jquery.countdown.js"></script>
+		<script src="js/smooth-scrollbar.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
 
-	
+		<!-- audio player -->
+		<script src="js/audio-player/js/sdk.js"></script>
+		<script src="js/audio-player/js/jquery.shoutcast.min.js"></script>
+		<script src="js/audio-player/js/soundmanager2-nodebug-jsmin.js"></script>
+		<script src="js/audio-player/jquery.scamp.player.min.js"></script>
+		<!-- /audio player -->
 
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 0,
-			endtimeMonth: 0,
-			endtimeDate: 35,
-			endtimeHours: 19,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "" 
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
+		<!-- google scripts -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC2qeFXhHxPO3kM2-3tiX5puGo1TkAeZk&amp;async=2&amp;ver=1.0.0"></script>
+		<script src="js/jquery.gmap.min.js"></script>
 
-</body>
+		<!-- custom scripts -->
+		<script src="js/scripts.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
+
+<!-- Mirrored from meloo-html.rascalsthemes.com/dark/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 May 2019 18:40:12 GMT -->
 </html>
